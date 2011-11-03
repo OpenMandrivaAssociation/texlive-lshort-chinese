@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /info/lshort/chinese
+# catalog-date 2008-07-16 16:26:02 +0200
+# catalog-license gpl
+# catalog-version 4.20
 Name:		texlive-lshort-chinese
 Version:	4.20
 Release:	1
@@ -46,6 +52,7 @@ processed output is created by use of XeTeX.
 %doc %{_texmfdistdir}/doc/latex/lshort-chinese/src/zhmath.sty
 %doc %{_texmfdistdir}/doc/latex/lshort-chinese/src/zhspacing.sty
 %doc %{_texmfdistdir}/doc/latex/lshort-chinese/src/zhulem.sty
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ processed output is created by use of XeTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
