@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-chinese.do
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 A translation to Chinese of the not so short introduction to
@@ -52,7 +50,6 @@ processed output is created by use of XeTeX.
 %doc %{_texmfdistdir}/doc/latex/lshort-chinese/src/zhmath.sty
 %doc %{_texmfdistdir}/doc/latex/lshort-chinese/src/zhspacing.sty
 %doc %{_texmfdistdir}/doc/latex/lshort-chinese/src/zhulem.sty
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,5 +60,3 @@ processed output is created by use of XeTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
