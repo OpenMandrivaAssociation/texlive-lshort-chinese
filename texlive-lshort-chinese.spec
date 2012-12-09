@@ -60,3 +60,17 @@ processed output is created by use of XeTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.20-2
++ Revision: 753463
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.20-1
++ Revision: 718885
+- texlive-lshort-chinese
+- texlive-lshort-chinese
+- texlive-lshort-chinese
+- texlive-lshort-chinese
+
