@@ -1,6 +1,6 @@
 Name:		texlive-lshort-chinese
 Version:	61100
-Release:	1
+Release:	2
 Summary:	Introduction to LaTeX, in Chinese
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/chinese
