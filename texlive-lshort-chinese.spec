@@ -3,7 +3,7 @@ Version:	67025
 Release:	1
 Summary:	Introduction to LaTeX, in Chinese
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/lshort/chinese
+URL:		https://www.ctan.org/tex-archive/info/lshort/chinese
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-chinese.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-chinese.doc.r%{version}.tar.xz
