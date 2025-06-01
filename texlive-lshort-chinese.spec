@@ -1,5 +1,5 @@
 Name:		texlive-lshort-chinese
-Version:	67025
+Version:	73160
 Release:	1
 Summary:	Introduction to LaTeX, in Chinese
 Group:		Publishing
